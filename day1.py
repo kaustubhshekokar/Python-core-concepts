@@ -1,0 +1,1 @@
+print("Day 1: Repository setup complete")
