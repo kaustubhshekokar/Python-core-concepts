@@ -8,7 +8,8 @@
         "rating": "10/10"
     },
     {
-        "title": "Bull",
-        "rating": "2/10"
+        "title": "Guns",
+        "rating": "9/10",
+        "type": "Series"
     }
 ]
