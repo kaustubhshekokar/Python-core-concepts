@@ -12,6 +12,6 @@ elif 20<BMI<24:
 elif BMI>=40:
     print("obese")
 else:
-    print("Mar !!!!!!!")
+    print("Nope !!!!!!!")
 
-print("Boye boye")                    
+print("Bye bye")                    
