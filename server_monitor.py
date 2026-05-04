@@ -1,16 +1,16 @@
 import requests
+import json  # NEW: Import the JSON library
 from datetime import datetime
 
 def check_servers():
     print("🔍 Starting Server Health Check...\n")
     
-    servers = [
-        "https://www.google.com",
-        "https://www.github.com",
-        "https://this-website-is-completely-fake-1234.com"
-    ]
+    # NEW: Read the URLs directly from the JSON configuration file
+    with open("config.json", "r") as file:
+        config_data = json.load(file)
+        servers = config_data["target_servers"]
     
-    # THE FIX: Added encoding="utf-8" so Windows doesn't crash on emojis
+    # The rest of your logging code remains exactly the same
     with open("server_logs.txt", "a", encoding="utf-8") as log_file:
         
         now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
