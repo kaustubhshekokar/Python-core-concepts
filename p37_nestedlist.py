@@ -3,3 +3,12 @@ len(list1)
 print(list1[4])
 print(list1[4][1])
 #somewhat playing in lens and list brackets...
+
+
+
+
+
+
+
+
+
