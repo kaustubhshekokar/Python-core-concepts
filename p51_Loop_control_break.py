@@ -24,7 +24,7 @@ print("out from loop")
 """
 
 #continue
-'''
+
 count=1
 while count<=10:
     print(count)
@@ -39,7 +39,7 @@ for i in range(1,11):
         continue
     else:
         print(i)
-'''
+
 
 
 #pass
